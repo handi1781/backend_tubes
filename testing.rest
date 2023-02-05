@@ -1,0 +1,25 @@
+GET http://localhost:5000/polisi
+
+###
+POST http://localhost:5000/tahanan
+Content-Type: application/json
+
+{
+    "nama": "Angger Fajar",
+    "kasus": "Perang sarung di masjid",
+    "deskripsi": "tawuran",
+    "jenis_kelamin": "lanang",
+    "umur": 12
+    
+}
+###
+POST http://localhost:5000/polisi
+Content-Type: application/json
+
+{
+    "nama": "Angger Fajar",
+    "pangkat": "Letnan 1",
+    "jenis_kelamin": "lanang",
+    "umur": 12
+    
+}
